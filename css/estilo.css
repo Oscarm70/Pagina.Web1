@@ -1,0 +1,37 @@
+body{
+	background-image: linear-gradient(120deg, #1B3132 0%, #ffab66 100%);
+	font-family: arial;
+	
+}
+
+table, th, td{
+
+	/*Agregamos un borde, ancho 1px, color negro solido*/
+	border: 1px solid white;
+
+	/*Colapsamos los bordes de manera que comparten el mismo borde*/
+	border-collapse: collapse;
+
+	padding: 7px;
+}
+
+th{
+	text-align: left;
+}
+
+.tabla2{
+	width: 95%;
+	background: hsla(0, 100%, 90%, 0.3);
+}
+
+.tabla1{
+	margin-bottom: 30px;
+	background: hsla(0, 100%, 90%, 0.3);
+	color: #fff;
+
+
+}
+a{
+ color: white;
+}
+
